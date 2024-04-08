@@ -137,9 +137,9 @@ const CreateVisit = () => {
               )}
             </div>
             <div className="flex flex-col">
-              <label htmlFor="img">nom de l'image</label>
-              <input type="text" id="img" name="img" className="w-full" />
-              {errors.img && <p className="text-red-500">{errors.img}</p>}
+                <label htmlFor="img">nom de l&apos;image</label>
+                <input type="text" id="img" name="img" className="w-full" />
+                {errors.img && <p className="text-red-500">{errors.img}</p>}
             </div>
             <div className="flex flex-col">
               <label htmlFor="size">Size</label>

@@ -8,9 +8,7 @@ import { ModaleContext } from "@/context/ModaleContext";
 import Link from "next/link";
 
 const Accueil = () => {
-  useEffect(() => {
-    console.log(toggleCreateVisitModale);
-  }, []);
+ 
   const { showModal, toggleCreateVisitModale } = useContext(ModaleContext);
 
   return (
