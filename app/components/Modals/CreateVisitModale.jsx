@@ -2,7 +2,7 @@ import { ModaleContext } from "@/context/ModaleContext";
 import React, { useContext } from "react";
 
 const CreateVisitModale = () => {
-  const { createVisit, visit, errors, showModal, toggleCreateVisitModale } =
+  const { createVisit, visit, errors, toggleCreateVisitModale } =
     useContext(ModaleContext);
 
   return (
